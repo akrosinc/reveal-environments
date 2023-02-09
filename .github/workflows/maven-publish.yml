@@ -5,7 +5,7 @@ name: Maven Package
 
 on:
   push:
-    branches: [ main , zambia_2022 , simulation-for-kenya-demo]
+    branches: [ main ]
   pull_request:
     branches: [none]
 
