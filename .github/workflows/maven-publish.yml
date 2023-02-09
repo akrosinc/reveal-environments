@@ -4,8 +4,10 @@
 name: Maven Package
 
 on:
-  release:
-    types: [created]
+  push:
+    branches: [ main , zambia_2022 , simulation-for-kenya-demo]
+  pull_request:
+    branches: [none]
 
 jobs:
   build:
