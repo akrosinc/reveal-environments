@@ -71,7 +71,7 @@ class Config {
   @Bean
   ConfigurationClient getConfigClient() {
     String connectionString = "Endpoint=" + endpoint + ";" +
-        "Id=" + id +";"+
+        "Id=" + id + ";" +
         "Secret=" + secret;
     return new ConfigurationClientBuilder()
         .connectionString(
